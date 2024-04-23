@@ -1,0 +1,496 @@
+    *{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  /* overflow-x:hidden; */
+}
+
+
+
+body {
+    height: 200vh;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-function: ease-in-out;
+  }
+  
+  .navbar-dark {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #ffffff !important;
+  }
+  
+  .navbar-collapse, .navbar-nav, .nav-item {
+    color: inherit !important;
+  }
+.arrow{
+    position: sticky;
+    float: right;
+
+}
+
+
+.content {
+     /* Just to make the page scrollable */
+}
+
+/* 
+.navbar-fixed-top .scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+.navbar-brand span{
+    color: white;
+font-size: 34px;
+padding-left: 50px;
+}
+.navbar-nav .nav-item{
+   
+    padding: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    color: white;
+} */
+.bg-white {
+  background: green !important;
+  transition: 1.5s ease-in;
+}
+
+.bg-white.scrolled {
+  background: red !important;
+}
+#header form{
+    padding-right: 70px;
+}
+#header form .btn{
+    width: 120px;
+    color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+#header form .btn:hover{
+     color:#47b2e4;
+}
+
+#banner{
+    position: relative;
+    margin-top: 30px;
+    color: white;
+    background-image: linear-gradient(to right, #47b2e4, #7952b3);
+
+}
+#banner h1{
+margin-top: 80px;
+}
+#banner-btn {
+    margin-top: 0px;
+}
+#banner-btn a .ic{
+    color: white;
+}
+ a .ic{
+    color: white;
+}
+.play{position: relative;
+padding-right: 50px;
+display: inline;
+margin-left: 50px;
+}
+.btn-info{
+    margin-top: 5px;
+color: white;
+}
+.btn-info:hover{
+    color: white;
+}
+.btn-outline-primary {
+    margin-top: 20px;
+    border-color: white;
+    border: solid 2px white;
+    border-radius:50px;
+}
+
+/* clients start img */
+.section-bg{
+    padding: 25px;
+    background-color: #f3f5fa;
+}
+.clients img{
+display: inline-block;
+width: 34%;
+}
+#content{
+    height:680px ;
+}
+.content{
+    background-color:  #f3f5fa;
+
+}
+.content h3{
+    position: relative;
+    
+color: #5b547e;
+}
+.content p{
+    color: #91a3be;
+}
+.accordion{
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+.accordion-item{
+    margin-top: 20px;
+    
+}
+.accordion a{
+  
+    text-decoration: none;
+}
+.accordion a h5{
+    color: black;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.accordion a h5:hover{
+    color: blueviolet;
+}
+.accordion span{
+    font-size: 18px;
+
+}
+/* skill Start */
+
+.skill .val{
+    float: right;
+}
+.progress{
+    margin-top: 0px;
+}
+#services .cad:hover {
+    padding-left: 0px;
+    transform: translateY(-10px);
+
+}
+#services .cad{
+        border-radius: 10px;
+               transition: 0.5s;
+        cursor: pointer;
+     
+    
+}
+.card a{
+    color: blue;
+}
+.card .ic{
+    padding-left: 30px;
+    padding-top: 40px;
+font-size: 32px;
+color: blue;
+
+}
+/* cta start */
+.cta{
+    margin-top: 50px;
+}
+#cta{position: sticky;
+    background-image: url(../img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 300px;
+   width: 100%;
+}
+#cta h3{
+    position: relative;
+top: 100px;
+color: white;
+}
+#cta p{position:relative;
+    top: 100px;
+    color: white;
+}
+.my-btn{
+    position: relative;
+    top: 140px;
+}
+.my-btn{
+    font-size: 16px;
+    width: 150px;
+    border-radius: 50px;
+border: solid 2px white;
+color: white;
+}
+.my-btn:hover{
+    background-color: #47b2e4;
+}
+
+
+#team .team-img .img-fluid{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+#team .icon i{
+    background-color:gray;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 3px;
+  margin: 3px;
+}
+#team .icon .ic{
+font-size: 14px;
+}
+#team .icon:hover{
+}
+#team .icon .ic:hover{
+    color: white;
+}
+#team .tea:hover{
+    padding-left: 0px;
+    transform: translateY(-10px);
+}
+#team .tea{
+    border-radius: 10px;
+    transition: 0.5s;
+cursor: pointer;
+}
+#pricing h4 span{
+    font-size: 32px;
+
+}
+#pricing ul li i{
+    color: #30aa67;
+}
+#pricing ul li{
+    line-height: 50px;
+    list-style-type: none;
+    color:#999;
+}
+.p-btn{padding: 10px;
+    width: 180px;
+    border-radius: 50px;
+}
+
+.p-bt{
+    padding: 10px;
+    width: 180px;
+    border-radius: 50px;
+}
+.faqa{
+background-color: #f3f5fa;
+height: 670px;
+}
+ .accordion-item span strong{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #c0eaf9;
+    padding: 3px;
+    color: #c0eaf9;
+    margin: 3px; 
+}
+
+
+ .info .address h4{
+    padding-right: 200px;
+float: right;
+}
+.p-form{
+    padding: 10px;
+margin: auto;
+margin-top: 20px;
+    width: 180px;
+    border-radius: 50px;
+}
+/* join start */
+.join{
+    
+background-color: #f3f5fa;
+height: 270px;
+}
+.input-group .form-control  {
+    position: relative;
+    border-radius: 50px;
+}
+.se{
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+
+    margin-right: 20px;
+}
+
+
+#contact .con{
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    background-color: white;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+#contact .cont{
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    background-color: white;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+ .address ul li{
+list-style-type: none;
+}
+/* useful link */
+.use-full ul li{
+list-style-type: none;
+}
+.use-full ul li:hover{
+    color: #47b2e4;
+}
+.use-full h4{
+    color: #37517e;
+}
+ .icons .ic  {
+    background-color:gray;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 3px;
+  margin: 3px;
+}
+ .iconi {
+
+font-size: 22px;
+margin-bottom: 10px;
+}
+.iconi{
+    color: #47b2e4;
+}
+.iconi:hover{
+    color: white;
+}
+.iconi:hover{
+background-color: #47b2e4;
+}
+.iconi  {
+    background-color:#e7f5fb;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 3px;
+  margin: 3px;
+}
+#footer{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #37517e;
+}
+#footer a{
+    text-decoration: none;
+    color: #47b2e4;
+}
+.use-full ul li{
+    color: #777777;
+}
+
+/* Responcive */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner h1{
+    font-size: 16px;
+    margin-top: 80px;
+    }
+.banner h2{
+    font-size: 12px;
+}
+.clients{
+    text-align: center;
+        }
+    .accordion a{
+      
+        text-decoration: none;
+    }
+    .accordion a h5{
+        color: black;
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .accordion a h5:hover{
+        color: blueviolet;
+    }
+    .accordion span{
+        font-size: 8px;
+    
+    }
+    .content h3{
+        position: relative;
+        font-size: 16px;
+    color: #5b547e;
+    }
+    .content p{
+        color: #91a3be;
+        font-size: 8px;
+    }
+    .accordion-body{
+        font-size: 8px;
+    }
+    
+    .skil h3{
+        font-size: 14px;
+    }
+    .skil p{
+        font-size: 8px;
+    }
+
+    #cta h3{
+        position: relative;
+    top: 100px;
+    color: white;
+    font-size: 12px;
+    }
+    .cta{
+        text-align: center;
+    }
+    #cta p{position:relative;
+        top: 100px;
+        color: white;
+        font-size: 8px;
+    }
+    .my-btn{
+        text-align: center;
+margin-left: 70px;
+    }
+    #services .cad{
+        border-radius: 10px;
+               transition: 0.5s;
+        cursor: pointer;
+     
+    
+}
+
+
+#cta{position: sticky;
+    background-image: url(../img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 300px;
+   width: 100%;
+}
+.contact{
+    margin-top: 20px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
